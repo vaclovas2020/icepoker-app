@@ -17,11 +17,7 @@ const mainNavItems: NavItem[] = [
 ];
 
 const footerNavItems: NavItem[] = [
-    {
-        title: 'Github Repo',
-        href: 'https://github.com/vaclovas2020/icepoker-app',
-        icon: Folder,
-    }
+
 ];
 </script>
 
@@ -32,7 +28,7 @@ const footerNavItems: NavItem[] = [
                 <SidebarMenuItem>
                     <SidebarMenuButton size="lg" as-child>
                         <Link :href="route('dashboard')">
-                            <AppLogo />
+                        <AppLogo />
                         </Link>
                     </SidebarMenuButton>
                 </SidebarMenuItem>
