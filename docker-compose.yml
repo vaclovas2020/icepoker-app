@@ -27,8 +27,8 @@ services:
             - redis
     ws.app:
         build:
-        context: ./go
-        dockerfile: Dockerfile
+            context: ./go
+            dockerfile: Dockerfile
         ports:
             - "7788:7788"
         restart: always
