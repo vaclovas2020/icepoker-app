@@ -38,7 +38,7 @@ func handleWebSocket(w http.ResponseWriter, r *http.Request) {
 		CheckOrigin: func(r *http.Request) bool {
 			origin := r.Header.Get("Origin")
 			log.Printf("Origin: %s", origin)
-			return origin == fmt.Sprintf("https://%s/%s", os.Getenv("APP_HOST"), idString)
+			return origin == fmt.Sprintf("https://%s/share/%s", os.Getenv("APP_HOST"), idString)
 		},
 	}
 
