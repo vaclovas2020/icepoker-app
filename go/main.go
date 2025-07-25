@@ -81,6 +81,6 @@ func main() {
 	log.Printf("APP_HOST: %s\n", os.Getenv("APP_HOST"))
 	log.Println("Starting server on port 7788")
 
-	http.HandleFunc("GET /{id}", handleWebSocket)
+	http.HandleFunc("GET /ws/{id}", handleWebSocket)
 	http.ListenAndServe(":7788", nil)
 }
