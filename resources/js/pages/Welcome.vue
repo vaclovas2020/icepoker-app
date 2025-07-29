@@ -94,7 +94,7 @@ import { Head, Link } from '@inertiajs/vue3';
                     </ul>
                 </div>
                 <div
-                    class="relative -mb-px aspect-335/376 w-full shrink-0 overflow-hidden rounded-t-lg bg-[#1dffc6] lg:mb-0 lg:-ml-px lg:aspect-auto lg:w-[438px] lg:rounded-t-none lg:rounded-r-lg dark:bg-[#14301e]">
+                    class="relative -mb-px aspect-335/376 w-full shrink-0 overflow-hidden rounded-t-lg bg-[#1dffc6] lg:mb-0 lg:-ml-px lg:aspect-auto lg:w-[438px] lg:rounded-t-none lg:rounded-r-lg">
 
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
                         <path
